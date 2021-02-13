@@ -13,7 +13,7 @@ a = True
 
 while a == True: # Main loop
     print('How many posts  do we comment? (for all of subreddits)')
-    num = input()
+    num = int(input())
     for submission in subreddit.hot(limit=num):
         try:
             submission.reply("Have a day.")
