@@ -8,7 +8,7 @@ reddit = praw.Reddit(client_id ='arl2Sw5wQmimEQ',
 
 def reply(submission, wait, ar): #function to reply to a posts
     for i in ar: #checking if we already replied to this post
-        if i == submission:
+        if i == submission.id:
             break
     else:
         try:
