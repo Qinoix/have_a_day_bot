@@ -20,7 +20,7 @@ def reply(submission, wait, ar): #function to reply to a posts
             print("Text: ", submission.selftext)
             print("ID: ", submission.id)
             print("---------------------------------\n")
-            ar.append(submission.id()
+            ar.append(submission.id)
         finally:
             time.sleep(wait) #waiting because limit
 
