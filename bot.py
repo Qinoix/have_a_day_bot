@@ -3,7 +3,7 @@ reddit = praw.Reddit(client_id ='my client id',
                      client_secret ='my client secret',  
                      user_agent ='u/have_a_day_bot by u/Inoix',  
                      username ='have_a_day_bot',  
-                     password ='MEbCa8WXQ5FZ4P6')  #logging
+                     password ='')  #logging
 
 
 subreddit = reddit.subreddit("memes")
